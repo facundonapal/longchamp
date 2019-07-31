@@ -1,0 +1,102 @@
+.widget-title {
+    font-family: "muli-regular",Arial,sans-serif !important;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.wrapper-widgets {
+    margin: 44px 0;
+    text-align: center !important;
+}
+
+.tabss {
+    text-align: center !important;
+}
+
+.tabss input[type=radio] {
+    display:none;
+}
+
+label {
+    width: 26.5% !important;
+    margin-bottom: 10px !important;
+}
+
+.tabss label {
+    display: inline-grid !important;
+    width: 26.5% !important;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    margin-bottom: 26px !important;
+    transition: border-bottom 1s ease;
+    border-bottom: 1px transparent solid;
+}
+
+
+
+.tabss [id^="tab"]:checked + label {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    border-bottom-width: thin;
+}
+
+.tab-style {
+    font-family: "muli-regular",Arial,sans-serif !important;
+    font-style: normal !important;
+    margin-bottom: 6px !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    overflow: visible !important;
+}
+
+ #tab1:checked ~ #tab-content1,
+ #tab2:checked ~ #tab-content2,
+ #tab3:checked ~ #tab-content3{
+    display: block;
+}
+
+
+#widget-container1 .ps-images {
+    grid-template-columns: repeat(auto-fill,150px)!important;
+    grid-gap: 10px!important;
+}
+
+#widget-container2 .ps-images {
+    grid-template-columns: repeat(auto-fill,calc(33% - 10px))!important;
+    grid-gap: 10px!important;
+}
+
+#widget-container3 .ps-images {
+    grid-template-columns: repeat(auto-fill,calc(33% - 10px))!important;
+    grid-gap: 10px!important;
+}
+
+#widget-container4 .ps-images {
+    grid-template-columns: repeat(auto-fill,calc(33% - 10px))!important;
+    grid-gap: 10px!important;
+}
+/* 
+.ps-images {
+    display: grid;
+    grid-gap: 1px !important;
+    grid-template-columns: repeat(auto-fill,250px) !important;
+} */
+
+input {
+    width: auto !important;
+}
+
+.ps-product-description {
+    margin-top: 56px !important;
+}
+
+ .ps-product-cta {
+    top: 110% !important;
+ }

@@ -135,6 +135,7 @@ CQuotient.trackViewProduct = function(/* Object */ cqParamData){
 /* ]]> */
 // -->
 </script>
+<link rel="stylesheet" href="css/lookbook.css">
 </head>
 <body>
 <script type="text/javascript">
@@ -290,10 +291,10 @@ Cr&eacute;ez votre compte
 </li>
 </ul>
 </div>
-<a href="/fr/fr" class="header__logo">
+<a href="index.html" class="header__logo">
 <span class="sr-only">Longchamp - Accueil</span>
 <svg class="symbol" aria-hidden="true" focusable="false">
-<use xlink:href="/on/demandware.static/Sites-Longchamp-EU-Site/-/default/dw212b030c/img/svg/symbols.svg#symbol-longchamp"></use>
+<use xlink:href="assets/img/symbols.svg#symbol-longchamp"></use>
 </svg>
 </a>
 <nav role="navigation" aria-label="Navigation principale" id="block-mainnavigation" class="main-menu multilevel-dropdown">
@@ -813,6 +814,13 @@ Afficher Maison Longchamp
 </div>
 </li>
 
+<li class="nav-item dropdown menu-image" role="menuitem">
+<a href="lookbook.html" class="nav-link dropdown-toggle upper" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Instashop
+<span class="d-none">Instashop</span>
+</a>
+</li>
+
 </ul>
 </div>
 </nav>
@@ -841,25 +849,22 @@ Instashop
         <!--start PhotoSlurp embed code-->
 
 
-        <h2>#longchamp</h2>
+        <h2 class="widget-title">#longchamp</h2>
         <div class = "wrapper-widgets" >
-
+          <div class="tabss">
             <input type="radio" name="tabs" id="tab1" checked>
                 <label for="tab1">
-                 <p class="tab-style">All</p>
+                 <p class="tab-style">Tout</p>
              </label>
              <input type="radio" name="tabs" id="tab2">
                 <label for="tab2">
-                 <p class="tab-style">Woman</p>
+                 <p class="tab-style">Femme</p>
              </label>
              <input type="radio" name="tabs" id="tab3">
                 <label for="tab3">
-                 <p class="tab-style">Man</p>
+                 <p class="tab-style">Homme</p>
              </label>
-             <input type="radio" name="tabs" id="tab4">
-                <label for="tab4">
-                 <p class="tab-style">tab4 title</p>
-             </label>
+             
 
 
              <div id="tab-content1" class="tab-content">
@@ -874,10 +879,7 @@ Instashop
                 <div id="widget-container3" class="ps-container">
                 </div>
             </div>
-            <div id="tab-content4" class="tab-content">
-                <div id="widget-container4" class="ps-container">
-                </div>
-            </div>
+          </div> 
 
 
         </div>
@@ -907,14 +909,14 @@ Instashop
             widgetType: 'gallery',
             albumId: 1923,
             lang: 'fr',
-            widgetId: 'lookbook-gallery-Woman',
+            widgetId: 'lookbook-gallery-Femme',
             autoscrollLimit: 10,
             pageLimit: 18,
             varyingThumbSizes: false,
             pageType: 'lookbook',
             theme: 'modern',
             thumbOverlay: true,
-            collection: 'women',
+            collection: 'femme',
             shopThisLookText:'Shop it now',
             ctaButton:'Buy',
             visibleProducts: 2,
@@ -924,36 +926,20 @@ Instashop
             widgetType: 'gallery',
             albumId: 1923,
             lang: 'fr',
-            widgetId: 'lookbook-gallery-Man',
+            widgetId: 'lookbook-gallery-Homme',
             autoscrollLimit: 10,
             pageLimit: 24,
             varyingThumbSizes: false,
             pageType: 'lookbook',
             theme: 'modern',
             thumbOverlay: true,
-            collection: 'men',
+            collection: 'homme',
             shopThisLookText:'Shop it now',
             ctaButton:'Buy',
             visibleProducts: 2,
             debug: true
             };
-            photoSlurpWidgetSettings['widget-container4'] = {
-            widgetType: 'gallery',
-            albumId: 1923,
-            lang: 'fr',
-            widgetId: 'lookbook-gallery-tab4 title',
-            autoscrollLimit: 10,
-            pageLimit: 24,
-            varyingThumbSizes: false,
-            pageType: 'lookbook',
-            theme: 'modern',
-            thumbOverlay: true,
-            collection: 'kids',
-            shopThisLookText:'Shop it now',
-            ctaButton:'Buy',
-            visibleProducts: 2,
-            debug: true
-            };
+           
 
             var script = document.createElement('script');
             script.async = true;
@@ -970,64 +956,6 @@ Instashop
         
 </div>
 </div>
-<div class="section section--product ">
-<div class="wrapper wrapper--padding">
-<div class="grid-2-m-1 flex-middle">
-<picture aria-hidden="true">
-<source media="(min-width: 769px)" srcset="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dwb623c805/WINTER/GIFT/ps-pm.jpg?sw=700&amp;sh=500&amp;sm=fit" sizes="100vw">
-<img class="img-rwd ml-auto mr-auto mt-0 mb-0" src="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dwb623c805/WINTER/GIFT/ps-pm.jpg?sw=373&amp;sh=266&amp;sm=fit" alt="Petite maroquinerie" />
-</picture>
-<div class="section--product__inner relative bg-white">
-<div class="section__title section__title--m fs-l">
-<p class="title-epsilon title-epsilon--m">
-Petite maroquinerie
-</p>
-<h2 class="title-epsilon title-epsilon--m title-epsilon--subtitle">
-D&Eacute;COUVREZ NOTRE S&Eacute;LECTION
-</h2>
-</div>
-<div class="section__content txt-c">
-<picture aria-hidden="true">
-<source media="(min-width: 769px)" srcset="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dw7bbe2a6b/WINTER/PRODUITS/L3146883E78_0.png?sw=700&amp;sh=500&amp;sm=fit" sizes="100vw">
-<img class="center" src="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dw7bbe2a6b/WINTER/PRODUITS/L3146883E78_0.png?sw=373&amp;sh=266&amp;sm=fit" width="250" height="250" alt="Petite maroquinerie" />
-</picture>
-<a href="/fr/fr/cadeaux/gifts/cadeaux-pour-elle/giftsforher/petite-maroquinerie/gift-for-her-petite_maroquinerie/" title="Petite maroquinerie" class="c-btn c-btn--alpha c-btn--s upper mt-1">
-D&eacute;couvrir la collection
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="section section--product section--product--left">
-<div class="wrapper wrapper--padding">
-<div class="grid-2-m-1 flex-middle">
-<picture aria-hidden="true">
-<source media="(min-width: 769px)" srcset="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dwa71762fa/WINTER/GIFT/ps-access.jpg?sw=700&amp;sh=500&amp;sm=fit" sizes="100vw">
-<img class="img-rwd ml-auto mr-auto mt-0 mb-0" src="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dwa71762fa/WINTER/GIFT/ps-access.jpg?sw=373&amp;sh=266&amp;sm=fit" alt="LES ACCESSOIRES" />
-</picture>
-<div class="section--product__inner relative bg-white">
-<div class="section__title section__title--m fs-l">
-<p class="title-epsilon title-epsilon--m">
-LES ACCESSOIRES
-</p>
-<h2 class="title-epsilon title-epsilon--m title-epsilon--subtitle">
-D&Eacute;COUVREZ NOTRE S&Eacute;LECTION
- </h2>
-</div>
-<div class="section__content txt-c">
-<picture aria-hidden="true">
-<source media="(min-width: 769px)" srcset="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dw1d21b716/WINTER/PRODUITS/55035LUA001_1.png?sw=700&amp;sh=500&amp;sm=fit" sizes="100vw">
-<img class="center" src="https://www.longchamp.com/dw/image/v2/BCVX_PRD/on/demandware.static/-/Sites-LC-storefront-catalog-EU/default/dw1d21b716/WINTER/PRODUITS/55035LUA001_1.png?sw=373&amp;sh=266&amp;sm=fit" width="250" height="250" alt="LES ACCESSOIRES" />
-</picture>
-<a href="/fr/fr/cadeaux/gifts/cadeaux-pour-elle/giftsforher/les-accessoires/gift_for_her_accessoires/" title="LES ACCESSOIRES" class="c-btn c-btn--alpha c-btn--s upper mt-1">
-D&eacute;couvrir la collection
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 
 
@@ -1040,26 +968,29 @@ D&eacute;couvrir la collection
 <ul class="d-flex justify-content-center">
 <li>
 <svg class="symbol" aria-hidden=”true” focusable=”false”>
-<use xlink:href="/on/demandware.static/Sites-Longchamp-EU-Site/-/fr_FR/v1564391967359/img/svg/symbols.svg#symbol-shield"></use>
+<use xlink:href="assets/img/symbols.svg#symbol-shield"></use>
 </svg>
 <span class="fs-m">Paiement S&eacute;curis&eacute;</span>
 </li>
 <li>
 <svg class="symbol" aria-hidden=”true” focusable=”false”>
-<use xlink:href="/on/demandware.static/Sites-Longchamp-EU-Site/-/fr_FR/v1564391967359/img/svg/symbols.svg#symbol-truck"></use>
+<use xlink:href="assets/img/symbols.svg#symbol-truck"></use>
 </svg>
 <span class="fs-m">Livraison en 2 &agrave; 3 jours ouvr&eacute;s - Hors Le Pliage Personnalis&eacute;</span>
 </li>
 <li>
 <svg class="symbol" aria-hidden=”true” focusable=”false”>
-<use xlink:href="/on/demandware.static/Sites-Longchamp-EU-Site/-/fr_FR/v1564391967359/img/svg/symbols.svg#symbol-time"></use>
+<use xlink:href="assets/img/symbols.svg#symbol-time"></use>
 </svg>
 <span class="fs-m">Retour gratuit sous 30 jours - Hors Le Pliage Personnalis&eacute;</span>
 </li>
 </ul>
 </div>
 </div>
-<div class="footer__section">
+<div style="padding: 0 33px;">
+<img src="assets/img/footer-longchamp.png" alt="">
+</div>
+<!-- <div class="footer__section">
 <div class="footer__section__item">
 <p class="footer__section__title" role="heading" aria-level="2">Suivez-nous</p>
 <ul class="d-flex">
@@ -1098,7 +1029,7 @@ D&eacute;couvrir la collection
 </ul>
 </div>
 <div class="footer__section__item footer__section__item--newsletter ">
-<p class="footer__section__title" role="heading" aria-level="2">Abonnez-vous &agrave; notre newsletter</p>
+<p class="footer__section__title" role="heading" aria-level="2">Abonnez-vous à notre newsletter</p>
 <form class="newsletter-footer-form form__field--placeholder newsletter-subscribe--form" target="_blank" id="newsletter-footer-container" action="/" method="post" accept-charset="UTF-8">
 <div class="form__group-single">
 <label class="form__field--placeholder form__field--symbol symbol-left form__field" for="edit-email--2">
@@ -1113,12 +1044,12 @@ D&eacute;couvrir la collection
 </use>
 </svg>
 </span>
-<input type="email" id="edit-email--2" name="email" value="" maxlength="254" class="form-email required form__input form-control newsletter-subscribe--email" required="required" aria-required="true" />
+<input type="email" id="edit-email--2" name="email" value="" maxlength="254" class="form-email required form__input form-control newsletter-subscribe--email" required="required" aria-required="true">
 <span class="form__label">
 Adresse e-mail<abbr title="requis">*</abbr>
 </span>
 </label>
-<button type="submit" id="edit-submit--2" name="op" value="S'abonner" class="button js-form-submit form-submit c-btn c-btn--delta c-btn--delta-xl upper  newsletter-subscribe--submit" data-validEmailUrl="/on/demandware.store/Sites-Longchamp-EU-Site/fr_FR/NewsLetter-Subscribe" data-messageRegex="Veuillez utiliser une adresse e-mail valide" data-messageRequired="Le champ adresse e-mail est obligatoire" data-messageProblem="D&eacute;sol&eacute;, un probl&egrave;me est survenu avec cette entr&eacute;e. Veuillez r&eacute;essayer." data-messageValidation="Merci de votre abonnement. Vous recevrez un e-mail de confirmation sous peu.">
+<button type="submit" id="edit-submit--2" name="op" value="S'abonner" class="button js-form-submit form-submit c-btn c-btn--delta c-btn--delta-xl upper  newsletter-subscribe--submit" data-validemailurl="/on/demandware.store/Sites-Longchamp-EU-Site/fr_FR/NewsLetter-Subscribe" data-messageregex="Veuillez utiliser une adresse e-mail valide" data-messagerequired="Le champ adresse e-mail est obligatoire" data-messageproblem="Désolé, un problème est survenu avec cette entrée. Veuillez réessayer." data-messagevalidation="Merci de votre abonnement. Vous recevrez un e-mail de confirmation sous peu.">
 S'abonner
 </button>
 </div>
@@ -1126,7 +1057,7 @@ S'abonner
 <div class="fs-s ff-light form__error pt-0  newsletter-subscribe--error"></div>
 </form>
 </div>
-</div>
+</div> -->
 <div class="footer__section">
  <div class="footer__section__item footer__section__item--lang footer-sl-li">
 <div class="language-selector">
