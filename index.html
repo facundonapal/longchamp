@@ -136,6 +136,8 @@ CQuotient.trackViewProduct = function(/* Object */ cqParamData){
 /* ]]> */
 // -->
 </script>
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 <script type="text/javascript">
@@ -818,10 +820,11 @@ Afficher Maison Longchamp
 </div>
 </li>
 
-<li class="nav-item dropdown menu-image" role="menuitem">
+<li class="nav-item dropdown menu-image" role="menuitem" data-aos="fade-in" data-aos-duration="2000"
+>
 <a href="lookbook.html" class="nav-link dropdown-toggle upper" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Instashop
-<span class="d-none">Instashop</span>
+Social Gallery
+<span class="d-none">Social Gallery</span>
 </a>
 </li>
 
@@ -952,7 +955,7 @@ Instashop
 </div>
 </div>
 
-<div class="section section--odd">
+<!-- <div class="section section--odd">
 <div class="container store">
 <div class="section__title section__title--m bg-white">
 <h2 class="title-epsilon title-epsilon--m">COLLECTION PRÊT-À-PORTER AUTOMNE/HIVER 2019</h2>
@@ -966,7 +969,7 @@ Instashop
 </div>
 </div>
 </div>
-</div>
+</div> -->
 
 <div class="section section-horizontal-carousel section--odd pb-03">
 <div class="container">
@@ -1329,5 +1332,10 @@ function trackPage() {
 
 <script src="js/dwac-18.10.4.js" type="text/javascript" async="async"></script>
 <script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>

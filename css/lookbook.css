@@ -24,13 +24,17 @@ label {
 
 .tabss label {
     display: inline-grid !important;
-    width: 26.5% !important;
+    width: 3.5% !important;
     text-align: center;
     line-height: 2;
     cursor: pointer;
-    margin-bottom: 26px !important;
+    margin: 0 108px 26px 0;
     transition: border-bottom 1s ease;
     border-bottom: 1px transparent solid;
+}
+
+.tabss label:hover {
+    border-bottom: 1px solid #444;
 }
 
 
