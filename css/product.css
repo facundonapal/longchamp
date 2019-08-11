@@ -2,3 +2,7 @@
 	background-color: #efefef !important;
 	padding: 12px 123px !important;
 }
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
+	height: 203px !important;
+}
